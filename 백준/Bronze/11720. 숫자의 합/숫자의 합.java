@@ -8,11 +8,10 @@ public class Main{
         int sum = 0;
         String str = sc.next();
         
-        char A[] = str.toCharArray();
+        char[] A = str.toCharArray();
         
-        for(int i=0 ; i<N ; i++){
-            int sum2 = A[i] - 48;
-            sum += sum2;
+        for(int i=0 ; i<A.length ; i++){
+            sum += A[i] - 48;
         }
         System.out.println(sum);
     }
