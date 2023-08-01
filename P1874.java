@@ -11,7 +11,7 @@ public class P1874 {
 			 A[i] = sc.nextInt();
 		 }
 		 Stack<Integer> stack = new Stack<>();
-		 int num = 0;
+		 int num = 1;
 		 boolean result = true;
 		 StringBuffer bf = new StringBuffer();
 		 for(int i=0 ; i<A.length ; i++) {
